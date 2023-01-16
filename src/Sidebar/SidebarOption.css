@@ -1,0 +1,38 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+
+  padding: 0 1.5em;
+  margin-top: 01em;
+  margin-bottom: 0.6em;
+  cursor: pointer;
+}
+
+.sidebarOption:hover > * {
+  color: white;
+}
+.sidebarOption:hover > .Icon {
+  color: white;
+}
+
+.sidebarOption > .Icon {
+  color: var(--spotify-lgrey);
+  transition: ease-out all 300ms;
+}
+
+.active {
+  color: white !important;
+}
+
+.sidebarOption > div {
+  font-size: 0.9em;
+  color: var(--spotify-lgrey);
+  margin-left: 1.3em;
+  font-weight: 600;
+  transition: ease-out all 300ms;
+}
+
+.upper {
+  font-size: 0.95em !important;
+  font-weight: 800 !important;
+}

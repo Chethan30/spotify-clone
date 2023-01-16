@@ -1,0 +1,5 @@
+.bottomBar {
+  background-color: var(--spotify-dgrey);
+  height: 100%;
+  /* border: 2px solid yellow; */
+}

@@ -1,0 +1,47 @@
+.sidebar {
+  flex: 0.3;
+  /* margin-top: 1em; */
+  /* height: 85%; */
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+
+  background-color: black;
+}
+.navBar {
+  flex: 0.45;
+}
+
+.playlist {
+  padding: 0 1.5em;
+  border-top: 2px solid var(--spotify-grey);
+  flex: 0.55;
+
+  height: 80%;
+  overflow-y: auto;
+}
+
+.list-item {
+  padding: 0.8em 0;
+  color: var(--spotify-lgrey);
+  overflow: hidden;
+
+  font-size: 0.93em;
+
+  transition: color ease-out 200ms;
+  cursor: context-menu;
+}
+
+.list-item:hover {
+  color: white;
+}
+
+.playlist::-webkit-scrollbar-track {
+  background-color: var(--spotify-bg);
+}
+.playlist::-webkit-scrollbar-thumb {
+  background-color: var(--spotify-grey);
+}
+.playlist::-webkit-scrollbar {
+  width: 0.8em;
+}
