@@ -18,7 +18,7 @@ body {
 .main {
   display: flex;
   height: 90vh;
-  z-index: -1;
+  width: 100%;
 }
 
 .bottom {

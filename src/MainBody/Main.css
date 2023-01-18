@@ -1,3 +1,30 @@
-.main {
-  flex: 0.7;
+:root {
+  --spotify-custom: white;
+}
+
+.main-comp {
+  flex: 1;
+  /* background: linear-gradient(var(--spotify-lgrey), 5%, var(--spotify-bg) 50%);
+  z-index: 1; */
+  background: linear-gradient(var(--spotify-custom), 1%, var(--spotify-bg) 50%);
+
+  /* width: 100%; */
+  /* border: 2px solid yellow; */
+}
+
+/* .main-comp::before {
+  opacity: 0;
+  background: linear-gradient(var(--spotify-custom), 5%, var(--spotify-bg) 50%);
+  z-index: -1;
+  transition: opacity 0.3s linear;
+}
+
+.main-comp:active:before {
+  opacity: 1;
+} */
+
+.main-comp > h2 {
+  padding: 0px 20px;
+  color: white;
+  font-size: 30px;
 }

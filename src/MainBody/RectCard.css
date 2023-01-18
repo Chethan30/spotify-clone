@@ -1,0 +1,56 @@
+.rectCard {
+  display: flex;
+  /* align-items: center; */
+  height: 80px;
+  /* width: 270px; */
+  border-radius: 5px;
+  background-color: #5353536c;
+  cursor: pointer;
+
+  position: relative;
+
+  /* border: 2px solid red; */
+  margin-left: 20px;
+  transition: background-color ease-in-out 0.3s;
+  transition: visibility ease-in-out 10s;
+}
+
+.rectCard:hover {
+  background-color: var(--spotify-grey);
+}
+
+.album-cover > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px 0px 0px 5px;
+
+  box-shadow: 1px 0px 10px 1px var(--spotify-bg);
+}
+
+.album-name {
+  align-self: center;
+  margin-left: 20px;
+  font-size: 1.05em;
+
+  color: white;
+  font-weight: 600;
+}
+
+.album-button {
+  align-self: center;
+  position: absolute;
+
+  top: 15px;
+  right: 10px;
+
+  /* margin-left: 0.8em; */
+}
+
+.ctrl-button {
+  font-size: 45px;
+  color: var(--spotify-primary);
+}
+
+.ctrl-button:hover {
+  transform: scale(1.05);
+}
