@@ -7,7 +7,7 @@
   /* background: linear-gradient(var(--spotify-lgrey), 5%, var(--spotify-bg) 50%);
   z-index: 1; */
   background: linear-gradient(var(--spotify-custom), 1%, var(--spotify-bg) 50%);
-
+  overflow-y: scroll;
   /* width: 100%; */
   /* border: 2px solid yellow; */
 }
@@ -27,4 +27,10 @@
   padding: 0px 20px;
   color: white;
   font-size: 30px;
+}
+
+.hori-grid {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
 }

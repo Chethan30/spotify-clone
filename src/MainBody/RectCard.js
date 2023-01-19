@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./RectCard.css";
 import PlayCircleIcon from "@mui/icons-material/PlayCircle";
-import PauseCircleIcon from "@mui/icons-material/PauseCircle";
+// import PauseCircleIcon from "@mui/icons-material/PauseCircle";
 import { FastAverageColor } from "fast-average-color";
 
 function RectCard({ cover, name }) {

@@ -1,0 +1,67 @@
+.horiCard {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--spotify-dgrey);
+  cursor: pointer;
+
+  /* align-items: center; */
+
+  border-radius: 0.4em;
+
+  width: 200px;
+  height: fit-content;
+  max-height: 270px;
+  padding: 0.8em 0.3em;
+  overflow: hidden;
+}
+
+.horiCard:hover {
+  background-color: rgb(46, 46, 46);
+}
+
+.horiCard > * {
+  margin-bottom: 0.3em;
+}
+
+.hori-img {
+  margin: 0 auto;
+  height: 180px;
+  margin-bottom: 0.3em;
+  position: relative;
+  z-index: 1;
+}
+
+.hori-img > img {
+  height: 100%;
+  border-radius: 0.4em;
+}
+
+.hori-button {
+  position: absolute;
+  color: var(--spotify-primary);
+  font-size: 50px;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  z-index: 2;
+
+  transition: scale ease-in-out 0.1s;
+}
+
+.hori-button:hover {
+  transform: scale(1.1);
+}
+
+.hori-title {
+  font-weight: bold;
+  color: white;
+  font-size: 1.3em;
+  align-self: left;
+  margin-left: 0.7em;
+}
+
+.hori-desc {
+  color: var(--spotify-grey);
+  margin-left: 0.7em;
+}

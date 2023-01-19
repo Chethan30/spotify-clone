@@ -1,8 +1,9 @@
 .rectbg {
   height: 20vh;
-  display: inline-grid;
+  display: grid;
   width: 100%;
   row-gap: 12px;
   column-gap: 6px;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 5em;
 }
