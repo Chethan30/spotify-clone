@@ -12,6 +12,15 @@
   /* border: 2px solid yellow; */
 }
 
+.main-comp > h2 {
+  width: fit-content;
+}
+
+.main-comp > h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* .main-comp::before {
   opacity: 0;
   background: linear-gradient(var(--spotify-custom), 5%, var(--spotify-bg) 50%);

@@ -1,0 +1,53 @@
+.songholder {
+  /* min-width: 200px; */
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.infoholder {
+  display: flex;
+}
+
+.info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.info > * {
+  color: white;
+}
+
+.info > *:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.songname {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.songartist {
+  font-size: 10px;
+}
+
+.imgholder {
+  width: 45px;
+}
+
+.leftctrls {
+  margin-left: 10px;
+}
+
+.leftctrls > * {
+  margin-left: 8px;
+  color: var(--spotify-lgrey);
+  font-size: 20px;
+}
+
+.leftctrls > *:hover {
+  color: white;
+}

@@ -33,7 +33,7 @@ function Main() {
 
   return (
     <div className="main-comp">
-      <h2>Main Body</h2>
+      <h2>Favorites</h2>
       {/* Rectangle Card */}
       <RectGrid />
       {/* Square Card */}

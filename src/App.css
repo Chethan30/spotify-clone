@@ -35,3 +35,13 @@ body {
 ::-webkit-scrollbar {
   width: 10px;
 } */
+
+::-webkit-scrollbar-track {
+  background-color: var(--spotify-bg);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--spotify-grey);
+}
+::-webkit-scrollbar {
+  width: 0.4em;
+}

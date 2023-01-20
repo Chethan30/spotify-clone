@@ -1,0 +1,38 @@
+.volumeholder {
+  display: flex;
+  align-items: center;
+}
+
+.rightctrls {
+  align-items: center;
+}
+
+.rightctrls > * {
+  margin-left: 10px;
+  color: var(--spotify-lgrey);
+  font-size: 20px;
+}
+
+.rightctrls > *:hover {
+  color: white;
+}
+
+.volume {
+  align-items: center;
+}
+
+.volume > * {
+  margin-left: 10px;
+  color: var(--spotify-lgrey) !important;
+  font-size: 20px;
+}
+
+.volume > input {
+  accent-color: white;
+  border: none !important;
+  outline: none !important;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  background-color: green;
+}

@@ -2,4 +2,37 @@
   background-color: var(--spotify-dgrey);
   height: 100%;
   /* border: 2px solid yellow; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thecontrols {
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spl {
+  font-size: 40px !important;
+  color: white !important;
+
+  transition: ease-in-out 200ms;
+}
+
+.thectrl {
+  color: var(--spotify-lgrey);
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.thectrl:hover {
+  color: white;
+}
+
+.spl:hover {
+  transform: scale(1.1);
 }
